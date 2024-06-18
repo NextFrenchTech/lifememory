@@ -1703,3 +1703,15 @@ input, select, textarea {
 	.mentionsLegales {
 		margin-bottom: 1rem;
 	}
+
+/* Mentions Légales */
+
+	hr {
+		width: 25%;
+		margin: 5vh auto;
+	}
+
+	.hr {
+		display: flex;
+		justify-content: center;
+	}

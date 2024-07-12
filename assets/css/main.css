@@ -1670,7 +1670,7 @@ input, select, textarea {
 
 /* NavBar */
 
-	.navbar li a, .dropdown .dropbtn {
+	.dropdown .dropbtn {
 		display: inline-block;
 		color: inherit;
 		text-align: center;
@@ -1678,7 +1678,7 @@ input, select, textarea {
 		text-decoration: none;
 	}
 
-	.navbar li a:hover, .dropdown:hover .dropbtn {
+	.dropdown:hover .dropbtn {
 		background-color: inherit;
 	}
 
@@ -1713,21 +1713,8 @@ input, select, textarea {
 
 	/* Media Query pour les écrans jusqu'à 768px de largeur */
 	@media screen and (max-width: 767px) {
-		.navbar li {
-			display: block; /* Afficher chaque élément de menu sur une nouvelle ligne */
-		}
-
-		.dropdown {
-			position: static; /* Annuler la position absolue pour les éléments dropdown */
-		}
-
-		.dropdown-content {
-			position: static; /* Afficher le contenu dropdown comme du contenu statique */
-			display: none; /* Cacher le contenu dropdown par défaut */
-		}
-
 		.dropdown:hover .dropdown-content {
-			display: block; /* Afficher le contenu dropdown au survol */
+			display: none; /* NE PAS Afficher le contenu dropdown au survol SUR Mobile */
 		}
 	}
 

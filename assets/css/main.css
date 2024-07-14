@@ -1718,9 +1718,9 @@ input, select, textarea {
 		}
 	}
 
-/* Packages */
+/* Modèles */
 
-	.packages.main {
+	.modeles.main {
 		display: flex;
 		justify-content: flex-end;
 		text-decoration: overline!important;
@@ -1728,7 +1728,7 @@ input, select, textarea {
 		transition: ease-in-out 0.5s;
 	}
 
-	.packages.main.main:hover {
+	.modeles.main.main:hover {
 		font-size: 24px;
 		transition: ease-in-out 0.5s;
 	}

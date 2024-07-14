@@ -1711,7 +1711,7 @@ input, select, textarea {
 		display: block;
 	}
 
-	/* Media Query pour les écrans jusqu'à 768px de largeur */
+	/* Media Query pour les écrans jusqu'à 767px de largeur */
 	@media screen and (max-width: 767px) {
 		.dropdown:hover .dropdown-content {
 			display: none; /* NE PAS Afficher le contenu dropdown au survol SUR Mobile */
